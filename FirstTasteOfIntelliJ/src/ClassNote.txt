@@ -13,3 +13,10 @@ String greetings = "Hello my people";
 2) length();
 3) toLowerCase()
 4) toUpperCase();
+
+CONTROL FLOW STATEMENT
+=============================
+there are 3 Categories of this
+1) Decision-making Statements: {if, if-else, switch}
+2) Looping Statements {for, while, do-while}
+3) Branching Statements {break, return, continue}
