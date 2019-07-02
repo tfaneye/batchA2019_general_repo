@@ -63,6 +63,7 @@ public class Vehicle {
             case 2: grade = 'B';
                 break;
             case 3: grade = 'C';
+                System.out.println("You have done brilliantly!!");
                 break;
             case 4: grade = 'D';
                 break;
