@@ -6,6 +6,7 @@ public class DecisionRunner {
 
         Vehicle vehicle = new Vehicle();
         //vehicle.applyBrakes(45.0);
-        vehicle.checkYourGrade();
+        //vehicle.checkYourGrade();
+        vehicle.switchDemo();
     }
 }

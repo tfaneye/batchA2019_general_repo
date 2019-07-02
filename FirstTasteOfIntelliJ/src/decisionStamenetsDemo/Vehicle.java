@@ -55,11 +55,19 @@ public class Vehicle {
 
     public void switchDemo(){
         int score = 70;
-        char grade;
+        char grade = 'C';
 
         switch (score){
             case 1: grade = 'A';
+            break;
+            case 2: grade = 'B';
+                break;
+            case 3: grade = 'C';
+                break;
+            case 4: grade = 'D';
+                break;
         }
+        System.out.println("Your score is " +score + ": Grade = " +grade);
     }
 
 }
