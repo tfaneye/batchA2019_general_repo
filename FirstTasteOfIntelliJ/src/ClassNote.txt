@@ -18,5 +18,5 @@ CONTROL FLOW STATEMENT
 =============================
 there are 3 Categories of this
 1) Decision-making Statements: {if, if-else, switch}
-2) Looping Statements {for, while, do-while}
+2) Looping Statements {for, while, do-while, Advanced for loop or foreach loop}
 3) Branching Statements {break, return, continue}

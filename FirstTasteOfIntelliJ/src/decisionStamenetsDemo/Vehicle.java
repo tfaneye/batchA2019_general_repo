@@ -54,12 +54,12 @@ public class Vehicle {
     }
 
     public void switchDemo(){
-        int score = 70;
-        char grade = 'C';
+        int scoreIndex = 3;
+        char grade;
 
-        switch (score){
+        switch (scoreIndex){
             case 1: grade = 'A';
-            break;
+                break;
             case 2: grade = 'B';
                 break;
             case 3: grade = 'C';
@@ -67,8 +67,38 @@ public class Vehicle {
                 break;
             case 4: grade = 'D';
                 break;
+            default:
+                System.out.println("Sorry! no such grade in the this Exam");
         }
-        System.out.println("Your score is " +score + ": Grade = " +grade);
+        System.out.println("Your score is " +scoreIndex);
+    }
+
+    public void selectWeekDay(){
+        int weekNumber = 4;
+        String day;
+
+        switch (weekNumber){
+            case 1: day = "Monday";
+
+                break;
+            case 2: day = "Tuesday";
+                break;
+            case 3: day = "Wednesday";
+                break;
+            case 4: day = "Thursday";
+                int price = 30;
+                int item = 2;
+                System.out.println("Total sales on Thursday = " + item * price);
+                break;
+            case 5: day = "Friday";
+                break;
+            case 6: day = "Saturday";
+                break;
+            case 7: day = "Sunday";
+                break;
+             default: day = "Invalid day";
+        }
+        System.out.println(day);
     }
 
 }
