@@ -54,8 +54,8 @@ public class Vehicle {
     }
 
     public void switchDemo(){
-        int score = 70;
-        char grade = 'C';
+        int score = 3;
+        char grade = 'F';
 
         switch (score){
             case 1: grade = 'A';
